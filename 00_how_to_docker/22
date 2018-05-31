@@ -1,0 +1,7 @@
+# docker swarm join-token -q worker >> token
+# eval $(docker-machine env Aiur)
+# docker swarm join --token `cat token` $(docker-machine ip Char):2377
+# rm token
+#
+# better solution:
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token -q worker) $(docker-machine ip Char):2377"

@@ -1,0 +1,7 @@
+docker run \
+	--detach \
+	--name lair \
+	--link spawning-pool:mysql \
+	-p 8080:80 \
+	wordpress
+# open http://192.168.99.100:8080/

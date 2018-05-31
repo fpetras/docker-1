@@ -1,0 +1,3 @@
+# docker pull debian && docker run -it debian
+apt-get update && apt-get install -y gcc git
+# -y, --yes --assume-yes: Automatic yes to prompts

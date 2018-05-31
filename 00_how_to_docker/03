@@ -1,0 +1,3 @@
+eval $(docker-machine env Char)
+# or
+# eval `docker-machine env Char`

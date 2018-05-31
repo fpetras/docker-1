@@ -1,0 +1,3 @@
+docker rm -f $(docker ps -aq)
+# or
+# docker rm -f $(docker container ls -aq)

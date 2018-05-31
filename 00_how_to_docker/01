@@ -1,0 +1,2 @@
+docker-machine create --driver virtualbox Char
+# -d or --driver

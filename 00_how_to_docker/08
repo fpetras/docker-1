@@ -1,0 +1,4 @@
+docker pull alpine && docker run --rm=true -it alpine
+# -it for interactive processes like shells
+# --rm or --rm=true to remove container after exit
+# check removal with docker ps -a
